@@ -9,8 +9,16 @@ body {
 h1,
 h2 {
 	color: #4cc9f0;
+	text-align: center;
 }
 
+p {
+	text-align: center;
+}
+
+.centered {
+	margin-left: 560px;
+}
 
 label {
 	float: left;
@@ -30,5 +38,52 @@ br {
 }
 
 #submit {
-	margin-left: 0.5em;
+	margin-left: 220px;
+	margin-bottom: 10px;
+	background-color: #3498db;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.1s ease;
+
+}
+
+a {
+	margin: 200px;
+	color: #4cc9f0;
+}
+
+.container {
+	width: 50%;
+	margin-left: 310px;
+	background-color: darkcyan;
+	padding: 10px;
+	border-radius: 10%;
+}
+
+.change {
+	margin-left: 40px;
+	
+}
+
+label{
+	color:white;
+	padding-left: 100px;
+}
+
+.button{
+	margin-top: 10px;
+	margin-left: 270px;
+	margin-bottom: 10px;
+	background-color: #3498db;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.1s ease;
 }
